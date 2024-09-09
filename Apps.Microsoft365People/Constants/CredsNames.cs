@@ -1,4 +1,4 @@
-namespace Apps.App.Constants;
+namespace Apps.Microsoft365People.Constants;
 
 public static class CredsNames
 {
