@@ -12,7 +12,7 @@ public class Microsoft365PeopleApplication  : BaseInvocable, IApplication, ICate
 
     public IEnumerable<ApplicationCategory> Categories
     {
-        get => [ApplicationCategory.Microsoft365Apps];
+        get => [ApplicationCategory.Microsoft365Apps, ApplicationCategory.Communication];
         set { }
     }
     
