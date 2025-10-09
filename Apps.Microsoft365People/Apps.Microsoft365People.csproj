@@ -6,14 +6,14 @@
         <Nullable>enable</Nullable>
         <Product>Microsoft 365 People</Product>
         <Description>Microsoft 365 People app that allows you to access and manage your contacts.</Description>
-        <Version>1.0.4</Version>
+        <Version>1.0.5</Version>
         <PackageId>Apps.Microsoft365People</PackageId>
         <AssemblyName>Apps.Microsoft365People</AssemblyName>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Blackbird.Applications.Sdk.Common" Version="2.8.0" />
-        <PackageReference Include="Blackbird.Applications.Sdk.Utils" Version="1.0.19"/>
+        <PackageReference Include="Blackbird.Applications.SDK.Blueprints" Version="1.0.0-rc.10308" />
+        <PackageReference Include="Blackbird.Applications.Sdk.Utils" Version="1.0.19" />
         <PackageReference Include="Microsoft.Graph" Version="5.57.0" />
     </ItemGroup>
 

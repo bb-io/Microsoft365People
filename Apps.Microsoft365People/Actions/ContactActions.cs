@@ -12,7 +12,7 @@ using RestSharp;
 
 namespace Apps.Microsoft365People.Actions;
 
-[ActionList]
+[ActionList("Contact")]
 public class ContactActions(InvocationContext invocationContext) : AppInvocable(invocationContext)
 {
     #region GET
