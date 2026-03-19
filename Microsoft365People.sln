@@ -1,5 +1,16 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11612.150 stable
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apps.Microsoft365People", "Apps.Microsoft365People\Apps.Microsoft365People.csproj", "{EB25604E-8EBA-464E-BEDF-30EA95395AD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Microsoft365People", "Tests.Microsoft365People\Tests.Microsoft365People.csproj", "{793F6375-0AAA-403F-8A8C-63AECD697205}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{190DD7EB-786E-451E-A09D-A33DD4CA8BBC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,5 +22,15 @@ Global
 		{EB25604E-8EBA-464E-BEDF-30EA95395AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB25604E-8EBA-464E-BEDF-30EA95395AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB25604E-8EBA-464E-BEDF-30EA95395AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793F6375-0AAA-403F-8A8C-63AECD697205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793F6375-0AAA-403F-8A8C-63AECD697205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793F6375-0AAA-403F-8A8C-63AECD697205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793F6375-0AAA-403F-8A8C-63AECD697205}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47D1C127-C2AA-4A93-83D4-E29AE8581657}
 	EndGlobalSection
 EndGlobal
